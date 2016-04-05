@@ -1,7 +1,7 @@
 .CSSTableGenerator {
 	margin:0px;padding:0px;
 	width:100%;
-	border:1px solid #494949;
+	border:1px solid #757575;
 	
 	-moz-border-radius-bottomleft:0px;
 	-webkit-border-bottom-left-radius:0px;
@@ -50,7 +50,7 @@
 	vertical-align:middle;
 	
 	
-	border:1px solid #494949;
+	border:1px solid #757575;
 	border-width:0px 1px 1px 0px;
 	text-align:left;
 	padding:6px;
@@ -71,7 +71,7 @@
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#494949", endColorstr="#494949");	background: -o-linear-gradient(top,#494949,494949);
 
 	background-color:#494949;
-	border:0px solid #494949;
+	border:0px solid #757575;
 	text-align:center;
 	border-width:0px 0px 1px 1px;
 	font-size:14px;
