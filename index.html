@@ -387,26 +387,26 @@
 <p>
   L'API fait une pagination de 30 éléments par page par défaut; ce nombre d'éléments peut être modifié en ajoutant
   le pàrametre "elements=<numéro>" :
-  <pre>- /photos?elements=10</pre>
+  <pre>/photos?elements=10</pre>
 </p>
 
 <p>
   Pour changer à la page suivante des éléments, vous pouvez utiliser le paramètre "page=<numéro>".
-  <pre>- /photos?<b>page=2</b></b></pre>
-  <pre>- /photos?elements=20&<b>page=5</b></pre>
+  <pre>/photos?<b>page=2</b></b></pre>
+  <pre>/photos?elements=20&<b>page=5</b></pre>
 </p>
 
 <p>
   Par défaut, pour le storie concernant aux photos, les éléments sont triés par le nom de l'espèce, mais si vous voulez
   les trier par an autre critère, il suffit d'ajouter le para mètre "trier=<colonne>" :
-  <pre>- /photos?<b>trier=Num_Ph<b></pre>
-  <pre>- /photos?elements=3&<b>trier=Num_Ph</b></pre>
+  <pre>/photos?<b>trier=Num_Ph<b></pre>
+  <pre>/photos?elements=3&<b>trier=Num_Ph</b></pre>
 </p>
 
 <p>
   Pour le filtrage de données concernants aux stories des photos, la requète WHERE de est construite avec les colonnes
   de la base de données plus la valeur que l'on veut obtenir :
-  <pre>- /photos?Sexe=0&Espece_S_Acc=XXXX&...</pre>
+  <pre>/photos?Sexe=0&Espece_S_Acc=XXXX&...</pre>
 </p>
 
 <h3>
